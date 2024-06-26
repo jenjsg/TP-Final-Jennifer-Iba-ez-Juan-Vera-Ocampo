@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Vera Ocampo Juan Pablo y Jennifer Tatiana Ibañez">
+    <title>Tabajo Final registro</title>
+    <meta name="description" content="Tienda online de J3 Fashion, una marca de ropa ecológica, que usa materiales que respetan el planeta.">
+    <meta name="location" content="La Rioja- Argentina">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/8d6c85ebb8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <a id="logo" href="index.html"><img src="img/LOGO.png"></a>
+            <nav>
+                <a href="index.html">Inicio</a> 
+                <a href="productos.html">Productos</a> 
+                <a href="acceso.html">Acceso</a> 
+                <a href="registro.html">Registrarse</a> 
+                <a href="encuestas_sorteos.html">Encuestas y Sorteos</a> 
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="registrarse">
+            <div class="registro">
+                <h2>¡REGISTRATE AHORA!</h2>
+                <form>
+                    <input type="text" name="name" placeholder="Nombre">
+                    <br/>
+                    <input type="email" name="email" placeholder="Email">
+                    <br/>
+                    <input type="text" name="phone" placeholder="Numero de telefono">
+                    <br/>
+                    <h3>¿Cúal es tu provincia?</h3>
+                    <label for="Provincia">Soy de</label>
+                    <select name="Provincia" id="Provincia" >
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Catamarca">Catamarca</option>
+                        <option value="Chaco">Chaco</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Entre Ríos">Entre Ríos</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="La Pampa">La Pampa</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Neuquen">Neuquen</option>
+                        <option value="Río Negro">Río Negro</option>
+                        <option value="Salta">Salta</option>
+                        <option value="San Juan">San Juan</option>
+                        <option value="San Luis">San Luis</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Santiago Del Estero">Santiago del Estero</option>
+                        <option value="Tierra del Fuego">Tierra del Fuego</option>
+                        <option value="Túcuman">Túcuman</option>
+                    </select>
+                    <br/>
+                    <div id="genero">
+                        <h3>Selecciona tu género</h3>
+                        <label for="Masculino">
+                            <input type="radio" id="Masculino" name="genero" >
+                            Masculino
+                        </label>
+                        <label for="Femenino">
+                            <input type="radio" id="Femenino" name="genero" > 
+                            Femenino
+                        </label>
+                        <label for="Otro">
+                            <input type="radio" id="Otro" name="genero" >
+                            Otro
+                        </label>
+                        <br/>
+                    </div>
+                    <br/>
+                    <input type="text" name="email" placeholder="Crea un nombre de usuario">
+                    <br/>
+                    <input type="password" name="contraseña" placeholder="Crea una contraseña">
+                    <br/>
+                    <input type="password" name="contraseña" placeholder="Confirma tu contraseña">
+                    <br/>
+                    <div id="terminos">
+                        <label for="terminos">
+                            <input type="checkbox" id="TyC" name="terminos">
+                            Acepto los términos y condiciones
+                        </label>
+                    </div>
+                    <br/>
+                    <button type="submit">CREAR PERFIL</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-logo">
+                <img src="img/LOGO.png" alt="J3 Fashion Logo">
+            </div>
+            <div class="footer-contacto">
+                <h3>CONTACTO</h3>
+                <p><i class="fas fa-phone"></i> +54 1254 3985</p>
+                <p><i class="fas fa-envelope"></i> j3fashion@hotmail.com</p>
+
+            </div>
+            <div class="footer-siguenos">
+                <h3>SÍGUENOS</h3>
+                <p>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-tiktok"></i>
+                </p>
+            </div>
+            <div class="footer-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.900282614662!2d-122.08385168469102!3d37.42302177982661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7691d6e7b0d%3A0x19d8c771f1ae16b2!2sGoogleplex!5e0!3m2!1sen!2sus!4v1580848974246!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <p>Todos los derechos reservados &copy; 2024|Juan Vera Ocampo & Jennifer Ibañez</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,510 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: #ACB8C0;
+}
+.encabezado{
+    width: 992px;
+    margin: 0 auto;
+}
+header .encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 100px;
+}
+header nav a{
+    padding: 5px 15px;
+    text-decoration:  none;
+    color: black;
+}
+header nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #152C17;
+}
+
+
+/* INDEX */
+#productos-destacados {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #152c17;
+}
+
+#productos-destacados h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.producto {
+    display: inline-block;
+    background-color: #919da5;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    vertical-align: top;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.producto button {
+    background-color: #486b5d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.producto button:hover {
+    background-color: #5A6A5A;
+}
+
+
+
+#staff {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ACB8C0;
+}
+#staff h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.director {
+    display: inline-block;
+    background-color: #152C17;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 450px;
+    vertical-align: top;
+}
+.director img {
+    width: 100%;
+    border-radius: 10px;
+}
+#staff h3{
+    color: white;
+    padding: 20px;
+}
+#staff p{
+    color: white;
+    padding: 5px;
+}
+
+
+.nuevos-ingresos {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #152C17;
+}
+
+.nuevos-ingresos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.entrada {
+    display: flex;
+    align-items: center;
+    background-color: #475147;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    
+}
+
+.texto{
+    width: 100%;
+    padding: 10px;
+}
+
+.texto p {
+    font-size: 20px;
+    color: white;
+}
+
+.texto h2{
+    color: white;
+}
+.imagen img {
+    width: 280px;
+    height:300px ;
+}
+
+.entrada button {
+    background-color: #7D8D7D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.entrada button:hover {
+    background-color: #5A6A5A;
+}
+
+
+#publicidades{
+    display: flex;
+    background-color: #ACB8C0;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+.email{
+    text-align: center;
+    background-color: #152C17;
+    padding: 20px 35px;
+}
+.email h2{
+    padding: 25px 30px;
+    font-size: 40px;
+    color: white;
+}
+form input{
+    width: 30%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+form button{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: #97a9b4;
+    font-size: 15px;
+    color: white;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #b0bec5;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-contacto,
+.footer-siguenos,
+.footer-mapa {
+    margin: 10px;
+}
+
+.footer-contacto{
+    margin-left: 20px;
+}
+.footer-contacto h3,
+.footer-siguenos h3 {
+    margin-top: 0;
+}
+
+.footer-siguenos i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.footer-mapa iframe {
+    width: 100%;
+    height: 200px;
+}
+
+
+/* REGISTRO */
+.registrarse{
+    background-color: #152C17;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.registrarse h2{
+    padding: 30px;
+}
+.registrarse h3{
+    padding: 30px;
+}
+
+#genero input{
+    width: 30px;
+    margin: 20px 0px;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+#terminos input{
+    width: 30px;
+}
+select{
+    width: 25%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.registrarse button{
+    margin: 30px;
+}
+
+
+/* ACCESO */
+#formulario{
+    background-color: #152c17;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#logiate{
+    padding: 70px ;
+}
+
+.login {
+    text-align: center;
+    width: 500px;
+    color: white;
+}
+
+.login h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.input-group label {
+    color: white;
+
+}
+
+.remember-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+/* PRODUCTOS */
+.contenedor {
+    display: flex;
+    color: #074e0a;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #152c17;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenido {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color:#c2ccd3;
+    padding: 15px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 90%;
+    height: auto;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto p {
+    color: #666;
+}
+
+.producto button {
+    background-color: #ffffff;
+    color:#074e0a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.terminos input{
+    width: 30px;
+}
+
+
+/* ENCUESTAS Y SORTEOS */
+.encuestas{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.encuesta {
+    background-color: #acb8c0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+}
+
+.encuesta h2 {
+    color: #074e0a;
+}
+
+.encuesta form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.encuesta label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #152C17;
+    margin-bottom: 15px;
+}
+
+.encuesta select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.encuesta input[type="submit"] {
+    background-color: #074e0a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 70px;
+}
+
+.encuesta input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+#sorteos h2{
+    text-align: center;
+    color: #074e0a;
+    padding: 50px;
+}
+.fondo{
+    display: flex;
+    align-items: center;
+    background-color: #91aa91;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+}
+#sorteos h3{
+    color: #152c17;
+}
+
+
+section#sorteos {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+section#sorteos h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    background-color: #578d77;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #074e0a;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
